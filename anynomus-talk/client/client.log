@@ -1,0 +1,2516 @@
+
+> anonymous-talk-client@1.0.0 start
+> react-scripts start
+
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+(node:2263) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2263) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+[eslint] 
+src/pages/Login.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (220:10) (220:10)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Login.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Login.js: Expected corresponding JSX closing tag for <motion.div>. (220:10)
+
+  218 |               </Link>
+  219 |             </p>
+> 220 |           </div>
+      |           ^
+  221 |         </motion.div>
+  222 |       </div>
+  223 |     </div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+
+ERROR in [eslint] 
+src/pages/Login.js
+  Line 220:10:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (220:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Register.js
+Syntax error: Expected corresponding JSX closing tag for <motion.form>. (355:10) (355:10)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Register.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Register.js: Expected corresponding JSX closing tag for <motion.form>. (355:10)
+
+  353 |               </div>
+  354 |             </form>
+> 355 |           </div>
+      |           ^
+  356 |
+  357 |           {/* Additional Info */}
+  358 |           <div className="text-center text-sm text-gray-200">
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+
+ERROR in [eslint] 
+src/pages/Register.js
+  Line 355:10:  Parsing error: Expected corresponding JSX closing tag for <motion.form>. (355:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Register.js
+Syntax error: Expected corresponding JSX closing tag for <motion.form>. (357:12) (357:12)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Register.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Register.js: Expected corresponding JSX closing tag for <motion.form>. (357:12)
+
+  355 |                 </Link>
+  356 |               </div>
+> 357 |             </form>
+      |             ^
+  358 |           </div>
+  359 |
+  360 |           {/* Additional Info */}
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+
+ERROR in [eslint] 
+src/pages/Register.js
+  Line 357:12:  Parsing error: Expected corresponding JSX closing tag for <motion.form>. (357:12)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Register.js
+Syntax error: Expected corresponding JSX closing tag for <motion.form>. (361:12) (361:12)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Register.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Register.js: Expected corresponding JSX closing tag for <motion.form>. (361:12)
+
+  359 |                 </Link>
+  360 |               </div>
+> 361 |             </form>
+      |             ^
+  362 |           </div>
+  363 |
+  364 |           {/* Additional Info */}
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+
+ERROR in [eslint] 
+src/pages/Register.js
+  Line 361:12:  Parsing error: Expected corresponding JSX closing tag for <motion.form>. (361:12)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Register.js
+Syntax error: Expected corresponding JSX closing tag for <motion.form>. (365:12) (365:12)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Register.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Register.js: Expected corresponding JSX closing tag for <motion.form>. (365:12)
+
+  363 |                 </Link>
+  364 |               </div>
+> 365 |             </form>
+      |             ^
+  366 |           </div>
+  367 |
+  368 |           {/* Additional Info */}
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+
+ERROR in [eslint] 
+src/pages/Register.js
+  Line 365:12:  Parsing error: Expected corresponding JSX closing tag for <motion.form>. (365:12)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Register.js
+Syntax error: Expected corresponding JSX closing tag for <motion.form>. (369:12) (369:12)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Register.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Register.js: Expected corresponding JSX closing tag for <motion.form>. (369:12)
+
+  367 |                 </Link>
+  368 |               </div>
+> 369 |             </form>
+      |             ^
+  370 |           </div>
+  371 |
+  372 |           {/* Additional Info */}
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+
+ERROR in [eslint] 
+src/pages/Register.js
+  Line 369:12:  Parsing error: Expected corresponding JSX closing tag for <motion.form>. (369:12)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Register.js
+Syntax error: Expected corresponding JSX closing tag for <motion.form>. (371:12) (371:12)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Register.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Register.js: Expected corresponding JSX closing tag for <motion.form>. (371:12)
+
+  369 |                 </Link>
+  370 |               </div>
+> 371 |             </form>
+      |             ^
+  372 |           </div>
+  373 |
+  374 |           {/* Additional Info */}
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+
+ERROR in [eslint] 
+src/pages/Register.js
+  Line 371:12:  Parsing error: Expected corresponding JSX closing tag for <motion.form>. (371:12)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Register.js
+Syntax error: Expected corresponding JSX closing tag for <motion.form>. (373:12) (373:12)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Register.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Register.js: Expected corresponding JSX closing tag for <motion.form>. (373:12)
+
+  371 |                 </Link>
+  372 |               </div>
+> 373 |             </form>
+      |             ^
+  374 |           </div>
+  375 |
+  376 |           {/* Additional Info */}
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+
+ERROR in [eslint] 
+src/pages/Register.js
+  Line 373:12:  Parsing error: Expected corresponding JSX closing tag for <motion.form>. (373:12)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Register.js
+Syntax error: Unexpected token, expected "," (412:10) (412:10)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+ERROR in ./src/pages/Register.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Register.js: Unexpected token, expected "," (412:10)
+
+  410 |     </div>
+  411 |
+> 412 |           {/* Additional Info */}
+      |           ^
+  413 |           <div className="text-center text-sm text-gray-200">
+  414 |             <p>
+  415 |               By creating an account, you agree to our{' '}
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.unexpected (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6633:16)
+    at FlowParserMixin.expect (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6914:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11577:14)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11603:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseVar (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13260:91)
+    at FlowParserMixin.parseVarStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13106:10)
+
+ERROR in [eslint] 
+src/pages/Register.js
+  Line 412:10:  Parsing error: Unexpected token, expected "," (412:10)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Chat.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (214:8) (214:8)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Chat.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Chat.js: Expected corresponding JSX closing tag for <motion.div>. (214:8)
+
+  212 |             </div>
+  213 |           </div>
+> 214 |         </div>
+      |         ^
+  215 |
+  216 |         {/* Chat Area */}
+  217 |         <div className="flex-1 bg-white rounded-lg shadow-lg flex flex-col overflow-hidden">
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11603:12)
+
+ERROR in [eslint] 
+src/pages/Chat.js
+  Line 214:8:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (214:8)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Chat.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (366:8) (366:8)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Chat.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Chat.js: Expected corresponding JSX closing tag for <motion.div>. (366:8)
+
+  364 |             </div>
+  365 |           )}
+> 366 |         </div>
+      |         ^
+  367 |
+  368 |         {/* Interests Modal */}
+  369 |         <AnimatePresence>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11603:12)
+
+ERROR in [eslint] 
+src/pages/Chat.js
+  Line 366:8:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (366:8)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Chat.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (371:8) (371:8)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Chat.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Chat.js: Expected corresponding JSX closing tag for <motion.div>. (371:8)
+
+  369 |             </div>
+  370 |           )}
+> 371 |         </div>
+      |         ^
+  372 |
+  373 |         {/* Interests Modal */}
+  374 |         <AnimatePresence>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11603:12)
+
+ERROR in [eslint] 
+src/pages/Chat.js
+  Line 371:8:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (371:8)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Chat.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (390:8) (390:8)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Chat.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Chat.js: Expected corresponding JSX closing tag for <motion.div>. (390:8)
+
+  388 |             </div>
+  389 |           )}
+> 390 |         </div>
+      |         ^
+  391 |
+  392 |         {/* Interests Modal */}
+  393 |         <AnimatePresence>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:12)
+    at FlowParserMixin.parseArrowExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11993:10)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11603:12)
+
+ERROR in [eslint] 
+src/pages/Chat.js
+  Line 390:8:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (390:8)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Chat.js
+Syntax error: Expected corresponding JSX closing tag for <motion.button>. (458:18) (458:18)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Chat.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Chat.js: Expected corresponding JSX closing tag for <motion.button>. (458:18)
+
+  456 |                   >
+  457 |                     Find Chat
+> 458 |                   </button>
+      |                   ^
+  459 |                 </div>
+  460 |               </motion.div>
+  461 |             </motion.div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOpBaseRightExpr (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10897:34)
+    at FlowParserMixin.parseExprOpRightExpr (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10892:21)
+    at FlowParserMixin.parseExprOp (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10858:27)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10819:17)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4638:31)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4717:36)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+
+ERROR in [eslint] 
+src/pages/Chat.js
+  Line 458:18:  Parsing error: Expected corresponding JSX closing tag for <motion.button>. (458:18)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (146:14) (146:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (146:14)
+
+  144 |                   </div>
+  145 |                 </div>
+> 146 |               </div>
+      |               ^
+  147 |
+  148 |               {/* Quick Stats */}
+  149 |               <div className="bg-white rounded-lg shadow-lg p-6 mt-6">
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 146:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (146:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (146:14) (146:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (146:14)
+
+  144 |                   </div>
+  145 |                 </div>
+> 146 |               </div>
+      |               ^
+  147 |
+  148 |               {/* Quick Stats */}
+  149 |               <div className="bg-white rounded-lg shadow-lg p-6 mt-6">
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 146:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (146:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (177:14) (177:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (177:14)
+
+  175 |                   </div>
+  176 |                 </div>
+> 177 |               </div>
+      |               ^
+  178 |             </div>
+  179 |
+  180 |             {/* Profile Details */}
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 177:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (177:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (379:14) (379:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (379:14)
+
+  377 |                   </div>
+  378 |                 )}
+> 379 |               </div>
+      |               ^
+  380 |             </div>
+  381 |           </div>
+  382 |         </motion.div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 379:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (379:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (383:14) (383:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (383:14)
+
+  381 |                   </div>
+  382 |                 )}
+> 383 |               </div>
+      |               ^
+  384 |             </div>
+  385 |           </div>
+  386 |         </motion.div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 383:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (383:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (383:14) (383:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (383:14)
+
+  381 |                   </div>
+  382 |                 )}
+> 383 |               </div>
+      |               ^
+  384 |             </div>
+  385 |           </div>
+  386 |         </motion.div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 383:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (383:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (385:14) (385:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (385:14)
+
+  383 |                   </div>
+  384 |                 )}
+> 385 |               </div>
+      |               ^
+  386 |             </div>
+  387 |           </div>
+  388 |         </motion.div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 385:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (385:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (387:14) (387:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (387:14)
+
+  385 |                   </div>
+  386 |                 )}
+> 387 |               </div>
+      |               ^
+  388 |             </div>
+  389 |           </div>
+  390 |         </motion.div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 387:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (387:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (387:14) (387:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (387:14)
+
+  385 |                   </div>
+  386 |                 )}
+> 387 |               </div>
+      |               ^
+  388 |             </div>
+  389 |           </div>
+  390 |         </motion.div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 387:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (387:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Profile.js
+Syntax error: Expected corresponding JSX closing tag for <motion.div>. (390:14) (390:14)
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+ERROR in ./src/pages/Profile.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /workspace/anynomus-talk/client/src/pages/Profile.js: Expected corresponding JSX closing tag for <motion.div>. (390:14)
+
+  388 |                   </div>
+  389 |                 )}
+> 390 |               </div>
+      |               ^
+  391 |             </div>
+  392 |           </div>
+  393 |         </motion.div>
+    at constructor (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6613:19)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4733:16)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElementAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4704:32)
+    at FlowParserMixin.jsxParseElement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4755:17)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4765:19)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:39
+    at FlowParserMixin.tryParse (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:6922:20)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3504:18)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12334:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10714:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11591:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3597:18)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:11242:23)
+    at FlowParserMixin.parseExprAtom (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:4770:20)
+    at FlowParserMixin.parseExprSubscripts (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10992:23)
+    at FlowParserMixin.parseUpdate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10977:21)
+    at FlowParserMixin.parseMaybeUnary (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10957:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10810:61)
+    at FlowParserMixin.parseExprOps (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10815:23)
+    at FlowParserMixin.parseMaybeConditional (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10792:23)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10745:21)
+    at FlowParserMixin.parseMaybeAssign (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3555:18)
+    at FlowParserMixin.parseExpressionBase (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10698:23)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:39
+    at FlowParserMixin.allowInAnd (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12329:16)
+    at FlowParserMixin.parseExpression (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:10694:17)
+    at FlowParserMixin.parseReturnStatement (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13018:28)
+    at FlowParserMixin.parseStatementContent (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12675:21)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12644:17)
+    at FlowParserMixin.parseStatementLike (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2922:24)
+    at FlowParserMixin.parseStatementListItem (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12624:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13192:61)
+    at FlowParserMixin.parseBlockBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13185:10)
+    at FlowParserMixin.parseBlock (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:13173:10)
+    at FlowParserMixin.parseFunctionBody (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:12018:24)
+    at /workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:2896:63
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/workspace/anynomus-talk/client/node_modules/@babel/parser/lib/index.js:3072:16)
+
+ERROR in [eslint] 
+src/pages/Profile.js
+  Line 390:14:  Parsing error: Expected corresponding JSX closing tag for <motion.div>. (390:14)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/AuthContext.js
+  Line 39:7:  Unreachable code  no-unreachable
+
+src/pages/About.js
+  Line 10:3:  'FiMail' is defined but never used  no-unused-vars
+
+src/pages/Chat.js
+  Line 9:3:    'FiUser' is defined but never used                no-unused-vars
+  Line 13:3:   'FiHeart' is defined but never used               no-unused-vars
+  Line 20:11:  'user' is assigned a value but never used         no-unused-vars
+  Line 23:5:   'currentChat' is assigned a value but never used  no-unused-vars
+
+src/pages/Profile.js
+  Line 14:3:  'FiActivity' is defined but never used  no-unused-vars
+
+src/pages/Register.js
+  Line 150:44:  Unnecessary escape character: \(  no-useless-escape
+  Line 150:46:  Unnecessary escape character: \)  no-useless-escape
+
+webpack compiled with 1 warning

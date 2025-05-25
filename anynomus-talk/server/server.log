@@ -1,0 +1,22 @@
+
+> anonymous-talk-server@1.0.0 start
+> node index.js
+
+🚀 Anonymous Talk Server running on port 12001
+📡 Socket.IO server ready for connections
+🌍 Environment: development
+User 88b87b0e-00b1-4f70-b5d5-efd42b37790c connected
+User 88b87b0e-00b1-4f70-b5d5-efd42b37790c disconnected
+Registration error: Error: User already exists with this email or phone
+    at createUser (/workspace/anynomus-talk/server/models/User.js:49:11)
+    at async /workspace/anynomus-talk/server/routes/auth.js:72:18
+User 89e412f4-ce6d-408f-ab84-1ccadafc3533 connected
+User 89e412f4-ce6d-408f-ab84-1ccadafc3533 disconnected
+User 89e412f4-ce6d-408f-ab84-1ccadafc3533 connected
+User 88b87b0e-00b1-4f70-b5d5-efd42b37790c connected
+User 89e412f4-ce6d-408f-ab84-1ccadafc3533 disconnected
+User 88b87b0e-00b1-4f70-b5d5-efd42b37790c disconnected
+User 89e412f4-ce6d-408f-ab84-1ccadafc3533 connected
+User 89e412f4-ce6d-408f-ab84-1ccadafc3533 disconnected
+User 89e412f4-ce6d-408f-ab84-1ccadafc3533 connected
+User 89e412f4-ce6d-408f-ab84-1ccadafc3533 disconnected

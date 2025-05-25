@@ -1,0 +1,91 @@
+[
+  {
+    "id": "4bdeaf6c-9f1d-4987-b9d5-58678bc3fdc8",
+    "email": "test@example.com",
+    "phone": null,
+    "password": "$2a$12$Rp3ghn2yEglcQzoK1TjrZuTPGZ2QSDwUFNVUFQ6UVZ8Rcf/P18dMS",
+    "gender": "male",
+    "preferredGender": "female",
+    "interests": [
+      "Music",
+      "Gaming",
+      "Technology"
+    ],
+    "role": "user",
+    "verified": false,
+    "banned": false,
+    "createdAt": "2025-05-25T09:31:14.220Z",
+    "lastActive": "2025-05-25T09:32:06.511Z",
+    "profileComplete": true,
+    "reports": [],
+    "chatHistory": [],
+    "status": "offline"
+  },
+  {
+    "id": "d60994fd-a5c5-464f-84de-be0e28d1712b",
+    "email": "testuser2@example.com",
+    "phone": null,
+    "password": "$2a$12$htPNIWwgIuVfZJDqi3NVp.SentlTI6JPQek.mvwlTfG77xwwQSOA.",
+    "gender": "male",
+    "preferredGender": "any",
+    "interests": [
+      "Technology",
+      "Gaming",
+      "Travel"
+    ],
+    "role": "user",
+    "verified": false,
+    "banned": false,
+    "createdAt": "2025-05-25T09:33:52.514Z",
+    "lastActive": "2025-05-25T09:43:37.360Z",
+    "profileComplete": true,
+    "reports": [],
+    "chatHistory": [],
+    "status": "offline"
+  },
+  {
+    "id": "88b87b0e-00b1-4f70-b5d5-efd42b37790c",
+    "email": "rajan.jhaipu16073@gmail.com",
+    "phone": "+919911919802",
+    "password": "$2a$12$PZVtwe.xYThsd4Nw.IEn3OFnQ3M3fkRmDGtHlekEKyGSknC5CLtg2",
+    "gender": "male",
+    "preferredGender": "male",
+    "interests": [
+      "Music",
+      "Movies",
+      "Sports",
+      "Gaming",
+      "Technology"
+    ],
+    "role": "user",
+    "verified": false,
+    "banned": false,
+    "createdAt": "2025-05-25T09:43:50.777Z",
+    "lastActive": "2025-05-25T10:03:54.103Z",
+    "profileComplete": true,
+    "reports": [],
+    "chatHistory": [],
+    "status": "offline"
+  },
+  {
+    "id": "89e412f4-ce6d-408f-ab84-1ccadafc3533",
+    "email": "newuser@example.com",
+    "phone": null,
+    "password": "$2a$12$VfX/17S2ocdePqVphF5zDOJLqdlyqs.4eeYOaKFIy0hfGkqGz5z4.",
+    "gender": "male",
+    "preferredGender": "any",
+    "interests": [
+      "Photography",
+      "Gaming"
+    ],
+    "role": "user",
+    "verified": false,
+    "banned": false,
+    "createdAt": "2025-05-25T09:55:59.567Z",
+    "lastActive": "2025-05-25T10:08:32.747Z",
+    "profileComplete": true,
+    "reports": [],
+    "chatHistory": [],
+    "status": "offline"
+  }
+]

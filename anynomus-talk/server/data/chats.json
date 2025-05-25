@@ -1,0 +1,73 @@
+[
+  {
+    "id": "f970faed-294f-4507-8bf5-67837dbb9a71",
+    "participants": [
+      "4bdeaf6c-9f1d-4987-b9d5-58678bc3fdc8"
+    ],
+    "userGenders": [
+      "male"
+    ],
+    "preferredGender": "female",
+    "interests": [],
+    "status": "ended",
+    "messages": [],
+    "createdAt": "2025-05-25T09:31:49.204Z",
+    "endedAt": "2025-05-25T09:31:59.931Z",
+    "endReason": "user_disconnected"
+  },
+  {
+    "id": "780e6275-2cca-45c3-9f9a-fbbecb1020d2",
+    "participants": [
+      "d60994fd-a5c5-464f-84de-be0e28d1712b"
+    ],
+    "userGenders": [
+      "male"
+    ],
+    "preferredGender": "any",
+    "interests": [],
+    "status": "ended",
+    "messages": [],
+    "createdAt": "2025-05-25T09:34:02.164Z",
+    "endedAt": "2025-05-25T09:43:37.360Z",
+    "endReason": "user_disconnected"
+  },
+  {
+    "id": "c3fdf5fd-21e7-4693-861b-2b510e5c2ed9",
+    "participants": [
+      "88b87b0e-00b1-4f70-b5d5-efd42b37790c",
+      "89e412f4-ce6d-408f-ab84-1ccadafc3533"
+    ],
+    "userGenders": [
+      "male",
+      "male"
+    ],
+    "preferredGender": "male",
+    "interests": [
+      "Music",
+      "Movies",
+      "Gaming"
+    ],
+    "status": "active",
+    "messages": [],
+    "createdAt": "2025-05-25T09:44:10.696Z",
+    "endedAt": null,
+    "endReason": null,
+    "startedAt": "2025-05-25T10:00:31.670Z"
+  },
+  {
+    "id": "58ace17b-c67c-4bb7-b434-e5a78cdafa20",
+    "participants": [
+      "88b87b0e-00b1-4f70-b5d5-efd42b37790c"
+    ],
+    "userGenders": [
+      "male"
+    ],
+    "preferredGender": "male",
+    "interests": [],
+    "status": "ended",
+    "messages": [],
+    "createdAt": "2025-05-25T10:01:13.483Z",
+    "endedAt": "2025-05-25T10:03:54.102Z",
+    "endReason": "user_disconnected"
+  }
+]
