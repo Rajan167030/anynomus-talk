@@ -78,26 +78,28 @@ ____________________________________________________
  ## Navigate to the project directory
 
 
-Navigate to the project directory:
 
-bash
-Copy
-Edit
+````
+
+## Navigate to the project directory:
+
 cd anynomus-talk
-Install the dependencies:
 
-Using npm:
+`````
 
-bash
-Copy
-Edit
+``````
+
+## Install the dependencies
+
 npm install
-Usage
-Run the project with:
 
-Using npm:
 
-bash
-Copy
-Edit
+```
+
+``````
+## Usage
+
 npm start
+
+
+
